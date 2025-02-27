@@ -1,0 +1,113 @@
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background: #f8f9fa; /* Светъл фон */
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.status {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.move-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.move-list li {
+  margin-bottom: 8px;
+}
+
+.move-list button {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+}
+
+.move-list button:hover {
+  background: #e2e6ea;
+  border-color: #999;
+}
+
+.sort-button {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.sort-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 5px; 
+  width: fit-content;
+  margin: auto; 
+}
+
+.square {
+  background: white;
+  border: 2px solid #333;
+  font-size: 24px;
+  font-weight: bold;
+  height: 64px;
+  width: 64px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background: #f1f1f1;
+}
+
+.square.highlight {
+  background-color: #ffd700;
+  color: black;
+  font-weight: bold;
+  border: 2px solid #ff9800;
+}
