@@ -3,6 +3,16 @@
 An interactive tic-tac-toe game built with **React**.
 
 
+---
+
+## **Tech Stack**
+- **React** – Frontend JavaScript library for building UI  
+- **HTML & CSS** – Styling and structuring the layout  
+- **JavaScript (ES6+)** – Game logic and interactivity  
+- **Vite** – Fast build tool for local development  
+- **Node.js & npm** – Package manager for dependencies  
+
+
 ## Installation & Setup
 
 To run the game in your local development environment, follow these steps:
