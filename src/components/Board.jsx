@@ -26,7 +26,7 @@ function Board({ xIsNext, squares, onPlay }) {
   return (
     <>
       <div className="status">{status}</div>
-      <div className="board"> {/* ✅ Добавяме grid контейнер */}
+      <div className="board">
         {squares.map((square, index) => (
           <Square
             key={index}
